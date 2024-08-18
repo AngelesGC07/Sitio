@@ -1,0 +1,139 @@
+body {
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.login-box {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 450px;
+    text-align: center;
+}
+
+.login-box h1 {
+    margin-bottom: 1.5rem;
+    color: #333;
+    font-size: 1.8rem;
+}
+
+.textbox {
+    position: relative;
+    margin: 1rem 0;
+}
+
+.textbox i {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #888;
+    font-size: 1.2rem;
+}
+
+.textbox input {
+    width: calc(100% - 40px);
+    padding: 0.8rem 1rem 0.8rem 2.5rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+    font-size: 1.2rem;
+}
+
+.textbox input:focus {
+    border-color: #2575fc;
+}
+
+.btn {
+    background: #2575fc;
+    color: #fff;
+    border: none;
+    padding: 0.6rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    width: 80%;
+    margin: 1.5rem auto;
+    display: block;
+}
+
+.btn:hover {
+    background: #1c4aab;
+}
+
+.signup {
+    margin-top: 1.5rem;
+    font-size: 1rem;
+}
+
+.signup a {
+    color: #2575fc;
+    text-decoration: none;
+}
+
+.signup a:hover {
+    text-decoration: underline;
+}
+
+/* Responsividad */
+
+@media (max-width: 768px) {
+    .login-box {
+        padding: 1.5rem;
+    }
+
+    .login-box h1 {
+        font-size: 1.6rem;
+    }
+
+    .textbox input {
+        font-size: 1rem;
+    }
+
+    .btn {
+        font-size: 0.9rem;
+        padding: 0.5rem;
+    }
+
+    .signup {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .login-box {
+        padding: 1rem;
+    }
+
+    .login-box h1 {
+        font-size: 1.4rem;
+    }
+
+    .textbox input {
+        font-size: 0.9rem;
+        padding: 0.7rem 1rem 0.7rem 2rem;
+    }
+
+    .btn {
+        font-size: 0.8rem;
+        padding: 0.4rem;
+    }
+
+    .signup {
+        font-size: 0.8rem;
+    }
+}
