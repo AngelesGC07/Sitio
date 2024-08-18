@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Principales Atracciones</title>
+    <link rel="stylesheet" href="CSS/Atracciones.css">
+    <script src="JS/Atracciones.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Principales atracciones de Xicotepec de Juárez, Puebla</h1>
+    </header>
+    <div class="container">
+        <div class="attraction">
+            <img src="IMG/Atracciones/xochipila.jpeg" alt="La Xochipila" onclick="openCarousel(this)" data-images="IMG/Atracciones/xochipila.jpeg,IMG/Atracciones/xochipilaa.jpeg,IMG/Atracciones/xochipilap.jpeg">
+            <div>
+                <h2>La Xochipila</h2>
+                <p>La Xochipila es un sitio arqueológico y ceremonial prehispánico, conocido por ser un lugar sagrado para las culturas nahuas. Es un espacio místico donde se realizan rituales tradicionales y se celebra el Día de San Juan Bautista.</p>
+                <button onclick="openModal('modalXochipila')">Ver más información</button>
+            </div>
+        </div>
+        <div id="modalXochipila" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modalXochipila')">&times;</span>
+                <h2>La Xochipila</h2>
+                <p><strong>Ubicación:</strong> Centro de Xicotepec, Puebla.</p>
+                <p><strong>Horario de visita:</strong> Abierto todo el año.</p>
+                <p><strong>Costo:</strong> Entrada libre.</p>
+                <p><strong>Fundación:</strong> Sitio prehispánico utilizado desde tiempos antiguos por las culturas nahuas.</p>
+                <p><strong>Características especiales:</strong> Ritual de San Juan Bautista el 24 de junio.</p>
+            </div>
+        </div>
+
+        <div class="attraction">
+            <img src="IMG/Atracciones/parroq.jpeg" alt="Parroquia de San Juan Bautista" onclick="openCarousel(this)" data-images="IMG/Atracciones/parroq.jpeg,IMG/Atracciones/iglesia.jpg,IMG/Atracciones/niños.jpeg">
+            <div>
+                <h2>Parroquia de San Juan Bautista</h2>
+                <p>La Parroquia de San Juan Bautista es una hermosa iglesia situada en el corazón de Xicotepec, Puebla. Construida en el siglo XVI, su arquitectura colonial y su rica historia la convierten en un lugar imperdible para los visitantes.</p>
+                <button onclick="openModal('modalParroquia')">Ver más información</button>
+            </div>
+        </div>
+        <div id="modalParroquia" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modalParroquia')">&times;</span>
+                <h2>Parroquia de San Juan Bautista</h2>
+                <p><strong>Ubicación:</strong> Centro de Xicotepec, Puebla.</p>
+                <p><strong>Horario de visita:</strong> Lunes a domingo, 8:00 am - 7:00 pm.</p>
+                <p><strong>Costo:</strong> Entrada libre.</p>
+                <p><strong>Fundación:</strong> Siglo XVI.</p>
+                <p><strong>Características especiales:</strong> Arquitectura colonial, celebraciones religiosas importantes.</p>
+            </div>
+        </div>
+
+        <div class="attraction">
+            <img src="IMG/Atracciones/Galeria1.jpg" alt="Museo Casa Carranza" onclick="openCarousel(this)" data-images="IMG/Atracciones/Galeria1.jpg,IMG/Atracciones/Galeria15.jpg,IMG/Atracciones/Galeria4.jpg">
+            <div>
+                <h2>Museo Casa Carranza</h2>
+                <p>El Museo Casa Carranza es una institución dedicada a la memoria de Venustiano Carranza, uno de los líderes más importantes de la Revolución Mexicana. El museo alberga objetos personales, documentos históricos y ofrece una visión profunda de su vida y obra.</p>
+                <button onclick="openModal('modalMuseo')">Ver más información</button>
+            </div>
+        </div>
+        <div id="modalMuseo" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modalMuseo')">&times;</span>
+                <h2>Museo Casa Carranza</h2>
+                <p><strong>Ubicación:</strong> Centro de Xicotepec, Puebla.</p>
+                <p><strong>Horario de visita:</strong> Martes a domingo, 9:00 am - 6:00 pm.</p>
+                <p><strong>Costo:</strong> Entrada libre.</p>
+                <p><strong>Fundación:</strong> 21 de mayo de 1979. Casa de Venustiano Carranza, convertida en museo después de su muerte.</p>
+                <p><strong>Características especiales:</strong> Exposición de objetos personales y documentos históricos.</p>
+            </div>
+        </div>
+
+        <div class="attraction">
+            <img src="IMG/Atracciones/virgen.jpeg" alt="Monumento a la Virgen de Guadalupe" onclick="openCarousel(this)" data-images="IMG/Atracciones/virgen.jpeg,IMG/Atracciones/virgen2.jpg,IMG/Atracciones/virg.jpg">
+            <div>
+                <h2>Monumento a la Virgen de Guadalupe</h2>
+                <p>El Monumento a la Virgen de Guadalupe es una escultura majestuosa que rinde homenaje a la patrona de México. Es un sitio de gran devoción y ofrece un espacio para la oración y la contemplación.</p>
+                <button onclick="openModal('modalVirgen')">Ver más información</button>
+            </div>
+        </div>
+        <div id="modalVirgen" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modalVirgen')">&times;</span>
+                <h2>Monumento a la Virgen de Guadalupe</h2>
+                <p><strong>Ubicación:</strong> Cerro de Xicotepec, Puebla.</p>
+                <p><strong>Horario de visita:</strong> Abierto todo el año.</p>
+                <p><strong>Costo:</strong> Entrada libre.</p>
+                <p><strong>Fundación:</strong> Construido como símbolo de devoción a la Virgen de Guadalupe.</p>
+                <p><strong>Características especiales:</strong> Lugar de peregrinación y festividades religiosas.</p>
+            </div>
+        </div>
+
+        <div class="attraction">
+            <img src="IMG/Atracciones/sendero.jpeg" alt="Sendero Cruz Celestial" onclick="openCarousel(this)" data-images="IMG/Atracciones/sendero.jpeg,IMG/Atracciones/sendero1.jpeg,IMG/Atracciones/vista.jpeg">
+            <div>
+                <h2>Sendero Cruz Celestial</h2>
+                <p>El Sendero Cruz Celestial es un camino que conduce a un mirador panorámico en la cima del cerro de Xicotepec. Es ideal para los amantes de la naturaleza y ofrece vistas impresionantes de la ciudad y sus alrededores.</p>
+                <button  class="button-container" onclick="openModal('modalSendero')">Ver más información</button>
+            </div>
+        </div>
+        <div id="modalSendero" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modalSendero')">&times;</span>
+                <h2>Sendero Cruz Celestial</h2>
+                <p><strong>Ubicación:</strong> Cerro de Xicotepec, Puebla.</p>
+                <p><strong>Horario de visita:</strong> Abierto todo el año.</p>
+                <p><strong>Costo:</strong> Entrada libre.</p>
+                <p><strong>Fundación:</strong> Construido como un sendero de acceso al mirador.</p>
+                <p><strong>Características especiales:</strong> Vistas panorámicas de Xicotepec y sus alrededores.</p>
+            </div>
+        </div>
+
+        <div class="attraction">
+            <img src="IMG/Atracciones/cruz celestial.jpeg" alt="La Majestuosa Cruz Celestial" onclick="openCarousel(this)" data-images="IMG/Atracciones/cruz celestial.jpeg,IMG/Atracciones/escalera.jpeg,IMG/Atracciones/panor.jpeg">
+            <div>
+                <h2>La Majestuosa Cruz Celestial</h2>
+                <p>La Majestuosa Cruz Celestial es un monumento impresionante situado en la cima del cerro de Xicotepec. Este lugar sagrado ofrece una experiencia espiritual y unas vistas espectaculares de la región.</p>
+                <button onclick="openModal('modalCruzCelestial')">Ver más información</button>
+            </div>
+        </div>
+        <div id="modalCruzCelestial" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modalCruzCelestial')">&times;</span>
+                <h2>La Majestuosa Cruz Celestial</h2>
+                <p><strong>Ubicación:</strong> Cerro de Xicotepec, Puebla.</p>
+                <p><strong>Horario de visita:</strong> Abierto todo el año.</p>
+                <p><strong>Costo:</strong> Entrada libre.</p>
+                <p><strong>Fundación:</strong> Inaugurada como símbolo de fe y devoción.</p>
+                <p><strong>Características especiales:</strong> Monumento imponente con vistas panorámicas y ambiente de tranquilidad.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="carousel-container" id="carouselContainer">
+        <span class="close-carousel" onclick="closeCarousel()">&times;</span>
+        <div class="carousel-controls">
+            <span class="carousel-control" onclick="prevImage()">&#10094;</span>
+            <img src="" alt="Carousel Image" class="carousel-image" id="carouselImage">
+            <span class="carousel-control" onclick="nextImage()">&#10095;</span>
+        </div>
+    </div>
+
+
+</body>
+</html>

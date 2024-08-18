@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Festividades de Xicotepec de Juárez</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/Festividades.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="JS/Festividades.js" defer></script>
+</head>
+<body>
+<header>
+    <h1>Festividades de Xicotepec de Juárez</h1>
+</header>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-4 festival" onclick="toggleDetails(this)">
+            <div class="image-container">
+                <img src="IMG/Festividades/feria 2.avif" alt="Imagen Feria de Xicotepec">
+            </div>
+            <div class="festival-info">
+                <h2>Feria de Xicotepec</h2>
+                <p><strong>Fecha:</strong> Segunda semana de marzo</p>
+                <p><strong>Objetivo:</strong> Promover la cultura y las tradiciones del municipio.</p>
+                <p class="details">La Feria de Xicotepec es una celebración que reúne a la comunidad para disfrutar de eventos culturales, artísticos y deportivos. Se realizan exposiciones, conciertos, bailes tradicionales y actividades recreativas. Es una oportunidad para que los habitantes y visitantes celebren la identidad y las tradiciones locales.</p>
+            </div>
+        </div>
+        <div class="col-md-4 festival" onclick="toggleDetails(this)">
+            <div class="image-container">
+                <img src="IMG/Festividades/12.jpeg" alt="Imagen Virgen de Guadalupe">
+            </div>
+            <div class="festival-info">
+                <h2>Día de la Virgen de Guadalupe</h2>
+                <p><strong>Fecha:</strong> 12 de diciembre</p>
+                <p><strong>Objetivo:</strong> Rendir homenaje a la Virgen de Guadalupe, patrona de México.</p>
+                <p class="details">El Día de la Virgen de Guadalupe es una celebración religiosa que incluye misas, procesiones y ofrendas florales. Los fieles se reúnen en la iglesia local para expresar su devoción y agradecimiento a la Virgen. Es una fecha significativa para la comunidad católica y un momento de unión y reflexión.</p>
+            </div>
+        </div>
+        <div class="col-md-4 festival" onclick="toggleDetails(this)">
+            <div class="image-container">
+                <img src="IMG/Festividades/murt.jpg" alt="Imagen Día de los Muertos">
+            </div>
+            <div class="festival-info">
+                <h2>Día de los Muertos</h2>
+                <p><strong>Fecha:</strong> 1 y 2 de noviembre</p>
+                <p><strong>Objetivo:</strong> Honrar la memoria de los seres queridos fallecidos.</p>
+                <p class="details">El Día de los Muertos es una tradición que se celebra con altares decorados, ofrendas y visitas al cementerio. Las familias honran a sus difuntos con alimentos, bebidas y objetos que disfrutaban en vida. Es una festividad colorida y emotiva que destaca el vínculo entre los vivos y los muertos, y preserva la memoria de los seres queridos.</p>
+            </div>
+        </div>
+    </div>
+    <div class="row justify-content-center">
+        <div class="col-md-4 festival" onclick="toggleDetails(this)">
+            <div class="image-container">
+                <img src="IMG/Festividades/vaca.jpeg" alt="Imagen Feria Ganadera">
+            </div>
+            <div class="festival-info">
+                <h2>Feria Ganadera</h2>
+                <p><strong>Fecha:</strong> Octubre</p>
+                <p><strong>Objetivo:</strong> Promover la actividad ganadera y agrícola de la región.</p>
+                <p class="details">La Feria Ganadera de Xicotepec es una celebración que destaca la importancia de la ganadería y la agricultura en la región. Durante la feria, se llevan a cabo exposiciones de ganado, concursos, ventas de productos agrícolas y actividades recreativas. Es una oportunidad para que los productores locales muestren su trabajo y fortalezcan la economía regional.</p>
+            </div>
+        </div>
+        <div class="col-md-4 festival" onclick="toggleDetails(this)">
+            <div class="image-container">
+                <img src="IMG/Festividades/san juan.jpg" alt="Imagen San Juan Bautista">
+            </div>
+            <div class="festival-info">
+                <h2>Fiesta de San Juan Bautista</h2>
+                <p><strong>Fecha:</strong> 24 de junio</p>
+                <p><strong>Objetivo:</strong> Celebrar al santo patrono de Xicotepec de Juárez.</p>
+                <p class="details">La Fiesta de San Juan Bautista es una festividad religiosa en honor al santo patrono de Xicotepec de Juárez. La celebración incluye misas, procesiones y eventos comunitarios. Es un momento de devoción y alegría para los habitantes, quienes participan en diversas actividades religiosas y culturales para rendir homenaje a San Juan Bautista.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="festivalCarousel" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="IMG/Festividades/Xochipila.jpeg" class="d-block w-100" alt="Feria 2">
+        </div>
+        <div class="carousel-item">
+            <img src="IMG/Festividades/feria 1.png" class="d-block w-100" alt="Imagen Día de los Muertos">
+        </div>
+        <div class="carousel-item">
+            <img src="IMG/Festividades/feria 5.jpg" class="d-block w-100" alt="Feria 4">
+        </div>
+        <div class="carousel-item">
+            <img src="IMG/Festividades/virg.jpg" class="d-block w-100" alt="Muertos 2">
+        </div>
+        <div class="carousel-item">
+            <img src="IMG/Festividades/12.jpeg" class="d-block w-100" alt="Centro Xico 2">
+        </div>
+        <div class="carousel-item">
+            <img src="IMG/Festividades/452.jpg" class="d-block w-100" alt="Parroquia 2">
+        </div>
+        <div class="carousel-item">
+            <img src="IMG/Festividades/Xochipila.jpeg" class="d-block w-100" alt="Feria 2">
+        </div>
+        <div class="carousel-item">
+            <img src="IMG/Festividades/vaca.jpeg" class="d-block w-100" alt="Imagen Día de los Muertos">
+        </div>
+    </div>
+</div>
+</body>
+</html>
